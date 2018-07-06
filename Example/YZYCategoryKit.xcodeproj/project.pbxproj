@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2552E7DB5B1EB3BE17108DF0 /* Pods_YZYCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZYCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B12FD0130BD10619F1F24A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B12FD0130BD10619F1F24A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YZYCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZYCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ECEB65EDA88C956C62F1A59 /* Pods-YZYCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZYCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YZYCategoryKit_Example/Pods-YZYCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9BF944C7B29450C08FC05531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9BF944C7B29450C08FC05531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9C1E6C3AF276C659A61AC5B4 /* Pods_YZYCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZYCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8353D2CD171049624700B3F /* YZYCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YZYCategoryKit.podspec; path = ../YZYCategoryKit.podspec; sourceTree = "<group>"; };
+		B8353D2CD171049624700B3F /* YZYCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YZYCategoryKit.podspec; path = ../YZYCategoryKit.podspec; sourceTree = "<group>"; };
 		C7A4950B1C9FA57C788EB11D /* Pods-YZYCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZYCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZYCategoryKit_Tests/Pods-YZYCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC1EC120EB4448236D9E082F /* Pods-YZYCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZYCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YZYCategoryKit_Example/Pods-YZYCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -492,9 +492,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YZYCategoryKit/YZYCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "YZYCategoryKit/YZYCategoryKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -507,9 +509,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YZYCategoryKit/YZYCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "YZYCategoryKit/YZYCategoryKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
