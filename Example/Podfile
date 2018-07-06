@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YZYCategoryKit_Example' do
+  pod 'YZYCategoryKit', :path => '../'
+
+  target 'YZYCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
