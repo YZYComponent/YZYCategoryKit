@@ -1,0 +1,30 @@
+{
+  "name": "YZYCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of YZYCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lgpfirework/YZYCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lgpfirework": "542438121@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lgpfirework/YZYCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YZYCategoryKit/Classes/**/*",
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "SCLAlertView-Objective-C": [
+
+    ]
+  }
+}

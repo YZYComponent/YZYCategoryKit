@@ -1,0 +1,27 @@
+PODS:
+  - SCLAlertView-Objective-C (1.1.3)
+  - SVProgressHUD (2.2.5)
+  - YZYCategoryKit (0.1.0):
+    - SCLAlertView-Objective-C
+    - SVProgressHUD
+
+DEPENDENCIES:
+  - YZYCategoryKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SCLAlertView-Objective-C
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  YZYCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SCLAlertView-Objective-C: 917836fb2349afa58edc43d592d22d21d46bb2a4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YZYCategoryKit: b8ffa40b8692e49f38d70cdcca144a2e9ce62ca9
+
+PODFILE CHECKSUM: 66574b67c31cb454be459a39cb196c83239798f9
+
+COCOAPODS: 1.5.0

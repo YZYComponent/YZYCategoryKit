@@ -1,0 +1,6 @@
+framework module YZYCategoryKit {
+  umbrella header "YZYCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
